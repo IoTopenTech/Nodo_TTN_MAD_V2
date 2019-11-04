@@ -2,6 +2,8 @@ Ejemplo para la configuración con sensor de efecto Hall y envío de heartbeat p
 Se activa por ABP.
 Envía la tensión de la batería y el estado de la puerta cada vez que éste cambia, durmiendo entre cada envío.
 
+Si tiene problemas para compilarlo por un error de tipo "segmentation fault", reduzca la versión de las placas Arduino a la versión 1.6.21.
+
 Requiere las siguientes librerías:
 * MCCI LoRaWAN LMIC Library by IBM, Matthis Kooijman, Terry Moore, ChaeHee Won, Frank Rose. Versión 2.3.2.
 * Low-Power by Rocket Scream Electronics. Versión 1.6.0.
