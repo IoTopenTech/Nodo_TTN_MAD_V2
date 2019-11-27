@@ -5,6 +5,7 @@ El usuario puede enviar un downlink con la carga de pago 02 00 64 FF para activa
 Enviando un downlink con la carga de pago 02 00 00 FF se desactiva el modo de seguimiento.
 Se ha probado con un GPS VK2828U7G5LF.
 El GPS está conectado al puerto Serial, por lo que el archivo GPSport.h de la librería NeoGPS debe modificarse para que su contenido sea el siguiente:
+```
 #ifndef GPSport_h
 #define GPSport_h
 
@@ -13,3 +14,4 @@ El GPS está conectado al puerto Serial, por lo que el archivo GPSport.h de la l
 #define DEBUG_PORT Serial
 
 #endif
+```
