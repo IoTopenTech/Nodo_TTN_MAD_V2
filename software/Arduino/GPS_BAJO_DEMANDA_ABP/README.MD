@@ -4,6 +4,7 @@ Cada 12 ciclos de 24 segundos, incluye en el heartbeat la posición GPS (si cons
 El usuario puede enviar un downlink con la carga de pago 02 00 64 FF para activar el modo de seguimiento; en este modo el GPS se habilita y se envía un paquete cada minuto.
 Enviando un downlink con la carga de pago 02 00 00 FF se desactiva el modo de seguimiento.
 Se ha probado con un GPS VK2828U7G5LF.
+Cuando se usa el transmisor LoRa se deshabilita el GPS porque el conversor de tensión no es capaz de suministrar corriente suficiente para ambos.
 El GPS está conectado al puerto Serial, por lo que el archivo GPSport.h de la librería NeoGPS debe modificarse para que su contenido sea el siguiente:
 ```
 #ifndef GPSport_h
