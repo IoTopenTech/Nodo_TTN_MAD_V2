@@ -1,7 +1,11 @@
 En este ejemplo utilizamos un GPS para enviar información a ttnmapper.
+
 Adicionalmente puede conectarse el pin de entrada de la batería al pin A1 para poder medir la tensión, y pulsando el botón (conectado al pin 8) se fuerza el envío de un paquete.
+
 Se ha probado con un GPS VK2828U7G5LF.
+
 Cuando se usa el transmisor LoRa se deshabilita el GPS porque el conversor de tensión no es capaz de suministrar corriente suficiente para ambos.
+
 El GPS está conectado al puerto Serial, por lo que el archivo GPSport.h de la librería NeoGPS debe modificarse para que su contenido sea el siguiente:
 ```
 #ifndef GPSport_h
