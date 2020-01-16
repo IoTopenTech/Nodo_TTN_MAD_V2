@@ -1,1 +1,1 @@
-Programas de ejemplo para el nodo TTN MAD V2.2.
+En esta carpeta se recogen varios ejemplos de funcionamiento del nodo TTN MAD V2.2.
