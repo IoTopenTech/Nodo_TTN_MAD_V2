@@ -8,7 +8,7 @@ Este ejemplo puede funcionar en dos modos diferentes:
 
 La carga de pago usa el estándar Cayenne LPP. Como no existe un modelo de datos para direcciones MAC en LPP, se codifican los 6 bytes de cada MAC en 3 paquetes de 2 bytes, que se envían cada uno como datos de luminosidad.
 
-![Integración con MyDevices](https://github.com/IoTopenTech/Nodo_TTN_MAD_V2_2/blob/master/rsc/TTN_MAD_V2_2_dondeestamimochila_cayenne.jpg)
+![Integración con MyDevices](https://github.com/IoTopenTech/Nodo_TTN_MAD_V2_2/blob/master/rsc/TTN_MAD_V2_2_dondeestamimochila_mydevices.jpg)
 
 Inicialmente arranca en el modo Heartbeat, y se puede intercambiar entre uno y otro modo usando cualquiera de estos dos métodos:
 * Usando el botón: Con una triple pulsación del botón en menos de 2'' pero con más de 500ms de separación entre pulsación y pulsación. El botón está conectado a los bornes SW y GND del terminal de tornillos verde. El botón elegido es el mismo que para la extensión WiFi (SMD 3*6*2,5).
@@ -25,7 +25,7 @@ Requiere las siguientes librerías:
 * MCCI LoRaWAN LMIC Library by IBM, Matthis Kooijman, Terry Moore, ChaeHee Won, Frank Rose. Versión 2.3.2.
 * Low-Power by Rocket Scream Electronics. Versión 1.6.0.
 * NeoGPS by SlashDevin 4.2.9
-   ```
+```
 Para reducir los requisitos de memoria FLASH de la librería MCCI se debe modificar su archivo MCCI_LoRaWAN_LMIC_library\project_config\lmic_project_config.h del siguiente modo:
 ```
 // project-specific definitions
