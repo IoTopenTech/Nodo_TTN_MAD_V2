@@ -1,5 +1,7 @@
 Este ejemplo muestra el uso de las extensiones WIFI, HALL, BME 280 y FRAM.
+
 La memoria FRAM se utiliza para almacenar el up-counter en el modo ABP.
+
 Requiere las siguientes librerías:
 * MCCI LoRaWAN LMIC Library by IBM, Matthis Kooijman, Terry Moore, ChaeHee Won, Frank Rose. Versión 2.3.2.
 * Low-Power by Rocket Scream Electronics. Versión 1.6.0.
