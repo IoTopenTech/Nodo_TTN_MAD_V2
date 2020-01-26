@@ -11,12 +11,12 @@ La carga de pago usa el estándar Cayenne LPP. Como no existe un modelo de datos
 ![Integración con MyDevices](https://github.com/IoTopenTech/Nodo_TTN_MAD_V2_2/blob/master/rsc/TTN_MAD_V2_2_dondeestamimochila_mydevices.jpg)
 
 Inicialmente arranca en el modo Heartbeat, y se puede intercambiar entre uno y otro modo usando cualquiera de estos dos métodos:
-* Usando el botón: Con una triple pulsación del botón en menos de 2'' pero con más de 500ms de separación entre pulsación y pulsación. El botón está conectado a los bornes SW y GND del terminal de tornillos verde. El botón elegido es el mismo que para la extensión WiFi (SMD 3*6*2,5).
+* Usando el botón: Con una triple pulsación del botón en menos de 2'' pero con más de 500ms de separación entre pulsación y pulsación. El botón está conectado a los bornes SW y GND del terminal de tornillos verde. El botón elegido es el mismo que para la extensión WiFi (SMD 3x6x2,5).
 * Mediante downlink: Se recomienda usar downlink con ACK para asegurarse de que es efectivamente recibido por el nodo. Un downlink con la carga de pago 02 00 64 FF activará el modo Tracking, y usando la carga de pago 02 00 00 FF se activará el modo Heartbeat.
 
 En modo Tracking el LED del nodo parpadea al menos cada 8 segundos en la fase dormida, y cada segundo aproximadamente si está en las fases de adquisición de GPS o WiFi.
 
-Requiere las extensiones WIFI, BOOSTER y GPS, y adicionalmente un botón SMD 3*6*2,5 como el de la extensión WIFI..
+Requiere las extensiones WIFI, BOOSTER y GPS, y adicionalmente un botón SMD 3x6x2,5 como el de la extensión WIFI..
 
 Puede configurarse a través del portal cautivo WiFi para unirse a la red por OTAA o ABP.
 Sin embargo, en modo ABP no almacena de forma no volátil los contadores, por lo que ante un fallo de alimentación se reiniciarían; en caso de configurarlo en modo ABP se recomienda deshabilitar la comprobación de contador en la consola de The Things Network.
