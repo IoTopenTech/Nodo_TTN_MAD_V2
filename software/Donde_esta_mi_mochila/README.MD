@@ -25,7 +25,7 @@ Requiere las siguientes librerías:
 * MCCI LoRaWAN LMIC Library by IBM, Matthis Kooijman, Terry Moore, ChaeHee Won, Frank Rose. Versión 2.3.2.
 * Low-Power by Rocket Scream Electronics. Versión 1.6.0.
 * NeoGPS by SlashDevin 4.2.9
-```
+
 Para reducir los requisitos de memoria FLASH de la librería MCCI se debe modificar su archivo MCCI_LoRaWAN_LMIC_library\project_config\lmic_project_config.h del siguiente modo:
 ```
 // project-specific definitions
