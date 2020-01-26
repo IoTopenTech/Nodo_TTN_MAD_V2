@@ -64,6 +64,7 @@ Cuando el ESP03 arranca empieza a mandar por el puerto serie "IoT" cada segundo,
 El modelo 3D de la caja está diseñado con TinkerCAD y disponible en  https://www.tinkercad.com/things/hX5CWUOLzT4 
 
 El asa se sujeta mediante 2 tuercas M2 y dos tornillos M2x5mm.
+El soporte para el botón conviene fijarlo con pegamento termofusible.
 
 ![Piezas 3D](https://github.com/IoTopenTech/Nodo_TTN_MAD_V2_2/blob/master/rsc/TTN_MAD_V2_2_dondeestamimochila_3d.jpg)
 
