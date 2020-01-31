@@ -1,6 +1,6 @@
 En este ejemplo utilizamos un GPS para enviar información a ttnmapper.
 
-Adicionalmente puede conectarse el pin de entrada de la batería al pin A1 para poder medir la tensión, y pulsando el botón (conectado al pin 8) se fuerza el envío de un paquete.
+Adicionalmente puede conectarse el pin de entrada de la batería al pin A1 mediante una resistencia de 1M para poder medir la tensión, y pulsando el botón (conectado al pin 8) se fuerza el envío de un paquete.
 
 Se ha probado con un GPS VK2828U7G5LF y un GN-701.
 
