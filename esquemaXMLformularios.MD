@@ -1,3 +1,4 @@
+```
 <myIoT>
 	<panel titulo="" resumen="">
 		<item tipo="coordenadas/chirpstack/alarma/atributoCompartido" 
@@ -12,3 +13,4 @@
 		</item>
 	</panel>
 </myIoT>
+```
