@@ -9,7 +9,7 @@
 				min_HisteresisMinimo="" max_HisteresisMinimo="" step_HisteresisMinimo="" --> atributos estándar HTML con sufijo
 				min_HisteresisMaximo="" max_HisteresisMaximo="" step_HisteresisMaximo="" --> atributos estándar HTML con sufijo
 			nombreAtributoCompartido="" labelAtributoCompartido="" tipoAtributoCompartido="opciones/texto/numero/boton"
-				min="" max="" step="" size="" pattern="" ...atributos estándar HTML
+				min="" max="" step="" size="" pattern="" --> atributos estándar HTML
 		</item>
 	</panel>
 </myIoT>
